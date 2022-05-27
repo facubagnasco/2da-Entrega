@@ -40,7 +40,7 @@ productos.forEach((producto, indice) => {
         <p class="card-text">${producto.marca}</p>
         <p class="card-text">$${producto.precio}</p>
         <p class="card-text"> Stock: ${producto.stock}</p>
-        <button id="boton${indice}" class="btn btn-secondary borrarproducto ">Agregar al Carrito</button>
+        <button id="boton${indice}" class="btn btn-secondary agregar item ">Agregar al Carrito</button>
       </div>  
   </div>
   `;
